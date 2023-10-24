@@ -10,7 +10,7 @@ A cada iteração de treinamento, os pesos da rede são ajustados com base na di
 
 A atualização dos pesos é feita utilizando a seguinte fórmula:
 
-\[ w_{\text{new}} = w_{\text{old}} + \eta \times e \times x \]
+$$ w_{\text{new}} = w_{\text{old}} + \eta \times e \times x $$
 
 Onde:
 - \( w_{\text{new}} \) e \( w_{\text{old}} \) são os pesos novo e antigo, respectivamente.
