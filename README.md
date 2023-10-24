@@ -13,10 +13,11 @@ A atualização dos pesos é feita utilizando a seguinte fórmula:
 $$ w_{\text{new}} = w_{\text{old}} + \eta \times e \times x $$
 
 Onde:
-- \( w_{\text{new}} \) e \( w_{\text{old}} \) são os pesos novo e antigo, respectivamente.
-- \( \eta \) é a taxa de aprendizado.
-- \( e \) é o erro, calculado como \( e = d - y \), onde \( d \) é a saída desejada e \( y \) é a saída atual do neurônio.
-- \( x \) é a entrada para o neurônio.
+
+\( w_{\text{new}} \) e \( w_{\text{old}} \) são os pesos novo e antigo, respectivamente.
+\( \eta \) é a taxa de aprendizado.
+\( e \) é o erro, calculado como \( e = d - y \), onde \( d \) é a saída desejada e \( y \) é a saída atual do neurônio.
+\( x \) é a entrada para o neurônio.
 
 ## Por que é Importante?
 
